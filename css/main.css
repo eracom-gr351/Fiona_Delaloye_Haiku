@@ -1,0 +1,80 @@
+/* ==========================================================================
+   Base styles
+   ========================================================================== */
+
+html {
+    color: #222;
+    line-height: 1.4;
+    font-family: 'Work Sans', sans-serif;
+    width: 100%;
+}
+
+#p1 {
+	font-size: 20px;
+	margin-top: 5%;
+	margin-left: 10%;
+} 
+
+#p2 {
+	font-size: 25px;
+	margin-top: 10%;
+	margin-left: 50%;
+} 
+
+#p3 {
+	font-size: 35px;
+	text-align: center;
+	margin-top: 7%;
+} 
+
+#p4 {
+	font-size: 50px;
+	margin-top: 10%;
+	margin-left: 78%;
+} 
+
+.Degrade {
+	background-image:linear-gradient(white,#DCFBFF);
+	height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Clearfix: contain floats
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+

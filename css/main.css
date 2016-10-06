@@ -5,12 +5,12 @@
 html {
     color: #222;
     line-height: 1.4;
-    font-family: 'Work Sans', sans-serif;
-    width: 100%;
+	font-family: 'Alegreya Sans SC', sans-serif;    
+	width: 100%;
 }
 
 #p1 {
-	font-size: 20px;
+	font-size: 12px;
 	margin-top: 5%;
 	margin-left: 10%;
 } 
@@ -23,32 +23,54 @@ html {
 
 #p3 {
 	font-size: 35px;
-	text-align: center;
-	margin-top: 7%;
+	margin-left: 15%;
+	margin-top: 20%;
 } 
 
 #p4 {
-	font-size: 50px;
-	margin-top: 10%;
+	color: white;
+	font-size: 35px;
+	margin-top: 8%;
 	margin-left: 78%;
 } 
 
 .Degrade {
-	background-image:linear-gradient(white,#DCFBFF);
+	background-image:linear-gradient(white, #9BB4C4);
 	height: 100vh;
 }
 
+@media screen and (max-width: 700px) {
+	
+#p1 {	
+	font-size: 15px;
+	margin-left: 0%;
+	margin-top: 8%;
+	text-align: center;
+}
+	
+#p2 {	
+	font-size: 15px;
+	margin-left: 0%;
+	margin-top: 8%;
+	text-align: center;
+}
+	
+#p3 {	
+	font-size: 15px;
+	margin-left: 0%;
+	margin-top: 8%;
+	text-align: center;
+}
+	
+#p4 {	
+	font-size: 30px;
+	margin-left: 0%;
+	margin-top: 8%;
+	text-align: center;
+}
+}
 
-
-
-
-
-
-
-
-
-
-
+	
 /* ==========================================================================
    Helper classes
    ========================================================================== */
